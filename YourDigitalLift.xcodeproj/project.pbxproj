@@ -9,14 +9,6 @@
 /* Begin PBXBuildFile section */
 		0A1D5A8C257CE77500431906 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D5A8B257CE77500431906 /* User.swift */; };
 		0A1DDA7B257D248D00CBF6AC /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */; };
-		0A261111257D7D3400F185D1 /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */; };
-		0A261112257D7D3400F185D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D5A8B257CE77500431906 /* User.swift */; };
-		0A261113257D7D3400F185D1 /* HttpsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADDBFB257CE01800387F30 /* HttpsRequest.swift */; };
-		0A261114257D7D3400F185D1 /* UserListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AE838257CB0A600C79C0E /* UserListController.swift */; };
-		0A261115257D7D3400F185D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AE836257CB0A600C79C0E /* AppDelegate.swift */; };
-		0A261118257D7D3400F185D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83F257CB0A600C79C0E /* LaunchScreen.storyboard */; };
-		0A261119257D7D3400F185D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83D257CB0A600C79C0E /* Assets.xcassets */; };
-		0A26111A257D7D3400F185D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83A257CB0A600C79C0E /* Main.storyboard */; };
 		0A9AE837257CB0A600C79C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AE836257CB0A600C79C0E /* AppDelegate.swift */; };
 		0A9AE839257CB0A600C79C0E /* UserListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AE838257CB0A600C79C0E /* UserListController.swift */; };
 		0A9AE83C257CB0A600C79C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83A257CB0A600C79C0E /* Main.storyboard */; };
@@ -25,13 +17,21 @@
 		0AADDBFC257CE01800387F30 /* HttpsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADDBFB257CE01800387F30 /* HttpsRequest.swift */; };
 		0ABE6B4A257E2D17007B6D53 /* UserNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE6B48257E2D17007B6D53 /* UserNamesCell.swift */; };
 		0ABE6B4B257E2D17007B6D53 /* UserNamesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABE6B49257E2D17007B6D53 /* UserNamesCell.xib */; };
+		0AE94848257E44110065CCD9 /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */; };
+		0AE94849257E44110065CCD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D5A8B257CE77500431906 /* User.swift */; };
+		0AE9484A257E44110065CCD9 /* UserNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE6B48257E2D17007B6D53 /* UserNamesCell.swift */; };
+		0AE9484B257E44110065CCD9 /* HttpsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADDBFB257CE01800387F30 /* HttpsRequest.swift */; };
+		0AE9484C257E44110065CCD9 /* UserListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AE838257CB0A600C79C0E /* UserListController.swift */; };
+		0AE9484D257E44110065CCD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AE836257CB0A600C79C0E /* AppDelegate.swift */; };
+		0AE94850257E44110065CCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83F257CB0A600C79C0E /* LaunchScreen.storyboard */; };
+		0AE94851257E44110065CCD9 /* UserNamesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABE6B49257E2D17007B6D53 /* UserNamesCell.xib */; };
+		0AE94852257E44110065CCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83D257CB0A600C79C0E /* Assets.xcassets */; };
+		0AE94853257E44110065CCD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83A257CB0A600C79C0E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A1D5A8B257CE77500431906 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsController.swift; sourceTree = "<group>"; };
-		0A26111E257D7D3400F185D1 /* YourDigitalLiftDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourDigitalLiftDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A26111F257D7D3400F185D1 /* YourDigitalLift copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "YourDigitalLift copy-Info.plist"; path = "/Users/mac2/Desktop/YDLTask/YourDigitalLift/YourDigitalLift copy-Info.plist"; sourceTree = "<absolute>"; };
 		0A9AE833257CB0A600C79C0E /* YourDigitalLift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourDigitalLift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9AE836257CB0A600C79C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A9AE838257CB0A600C79C0E /* UserListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListController.swift; sourceTree = "<group>"; };
@@ -42,17 +42,19 @@
 		0AADDBFB257CE01800387F30 /* HttpsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpsRequest.swift; sourceTree = "<group>"; };
 		0ABE6B48257E2D17007B6D53 /* UserNamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNamesCell.swift; sourceTree = "<group>"; };
 		0ABE6B49257E2D17007B6D53 /* UserNamesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserNamesCell.xib; sourceTree = "<group>"; };
+		0AE94857257E44110065CCD9 /* YourDigitalLiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourDigitalLiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE94858257E44110065CCD9 /* YourDigitalLift copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "YourDigitalLift copy2-Info.plist"; path = "/Users/mac2/Desktop/YDLTask 2/YourDigitalLift/YourDigitalLift copy2-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A261116257D7D3400F185D1 /* Frameworks */ = {
+		0A9AE830257CB0A600C79C0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A9AE830257CB0A600C79C0E /* Frameworks */ = {
+		0AE9484E257E44110065CCD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +69,7 @@
 			children = (
 				0A9AE835257CB0A600C79C0E /* YourDigitalLift */,
 				0A9AE834257CB0A600C79C0E /* Products */,
-				0A26111F257D7D3400F185D1 /* YourDigitalLift copy-Info.plist */,
+				0AE94858257E44110065CCD9 /* YourDigitalLift copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				0A9AE833257CB0A600C79C0E /* YourDigitalLift.app */,
-				0A26111E257D7D3400F185D1 /* YourDigitalLiftDEMO.app */,
+				0AE94857257E44110065CCD9 /* YourDigitalLiftDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,23 +103,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A26110E257D7D3400F185D1 /* YourDigitalLiftDEMO */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A26111B257D7D3400F185D1 /* Build configuration list for PBXNativeTarget "YourDigitalLiftDEMO" */;
-			buildPhases = (
-				0A26110F257D7D3400F185D1 /* Sources */,
-				0A261116257D7D3400F185D1 /* Frameworks */,
-				0A261117257D7D3400F185D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YourDigitalLiftDEMO;
-			productName = YourDigitalLift;
-			productReference = 0A26111E257D7D3400F185D1 /* YourDigitalLiftDEMO.app */;
-			productType = "com.apple.product-type.application";
-		};
 		0A9AE832257CB0A600C79C0E /* YourDigitalLift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A9AE845257CB0A600C79C0E /* Build configuration list for PBXNativeTarget "YourDigitalLift" */;
@@ -135,6 +120,23 @@
 			productReference = 0A9AE833257CB0A600C79C0E /* YourDigitalLift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0AE94846257E44110065CCD9 /* YourDigitalLiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE94854257E44110065CCD9 /* Build configuration list for PBXNativeTarget "YourDigitalLiftDemo" */;
+			buildPhases = (
+				0AE94847257E44110065CCD9 /* Sources */,
+				0AE9484E257E44110065CCD9 /* Frameworks */,
+				0AE9484F257E44110065CCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YourDigitalLiftDemo;
+			productName = YourDigitalLift;
+			productReference = 0AE94857257E44110065CCD9 /* YourDigitalLiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -145,11 +147,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Mac2;
 				TargetAttributes = {
-					0A26110E257D7D3400F185D1 = {
-						ProvisioningStyle = Automatic;
-					};
 					0A9AE832257CB0A600C79C0E = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0AE94846257E44110065CCD9 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -168,22 +170,12 @@
 			projectRoot = "";
 			targets = (
 				0A9AE832257CB0A600C79C0E /* YourDigitalLift */,
-				0A26110E257D7D3400F185D1 /* YourDigitalLiftDEMO */,
+				0AE94846257E44110065CCD9 /* YourDigitalLiftDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A261117257D7D3400F185D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A261118257D7D3400F185D1 /* LaunchScreen.storyboard in Resources */,
-				0A261119257D7D3400F185D1 /* Assets.xcassets in Resources */,
-				0A26111A257D7D3400F185D1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0A9AE831257CB0A600C79C0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,21 +187,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0A26110F257D7D3400F185D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		0AE9484F257E44110065CCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A261111257D7D3400F185D1 /* UserDetailsController.swift in Sources */,
-				0A261112257D7D3400F185D1 /* User.swift in Sources */,
-				0A261113257D7D3400F185D1 /* HttpsRequest.swift in Sources */,
-				0A261114257D7D3400F185D1 /* UserListController.swift in Sources */,
-				0A261115257D7D3400F185D1 /* AppDelegate.swift in Sources */,
+				0AE94850257E44110065CCD9 /* LaunchScreen.storyboard in Resources */,
+				0AE94851257E44110065CCD9 /* UserNamesCell.xib in Resources */,
+				0AE94852257E44110065CCD9 /* Assets.xcassets in Resources */,
+				0AE94853257E44110065CCD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		0A9AE82F257CB0A600C79C0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,6 +211,19 @@
 				0AADDBFC257CE01800387F30 /* HttpsRequest.swift in Sources */,
 				0A9AE839257CB0A600C79C0E /* UserListController.swift in Sources */,
 				0A9AE837257CB0A600C79C0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE94847257E44110065CCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE94848257E44110065CCD9 /* UserDetailsController.swift in Sources */,
+				0AE94849257E44110065CCD9 /* User.swift in Sources */,
+				0AE9484A257E44110065CCD9 /* UserNamesCell.swift in Sources */,
+				0AE9484B257E44110065CCD9 /* HttpsRequest.swift in Sources */,
+				0AE9484C257E44110065CCD9 /* UserListController.swift in Sources */,
+				0AE9484D257E44110065CCD9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,36 +249,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0A26111C257D7D3400F185D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "YourDigitalLift copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEMO";
-				PRODUCT_BUNDLE_IDENTIFIER = com.DiceApp.YourDigitalLiftDEMO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0A26111D257D7D3400F185D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "YourDigitalLift copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEMO";
-				PRODUCT_BUNDLE_IDENTIFIER = com.DiceApp.YourDigitalLiftDEMO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		0A9AE843257CB0A600C79C0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -391,8 +365,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YourDigitalLift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEV";
-				PRODUCT_BUNDLE_IDENTIFIER = com.DiceApp.YourDigitalLiftDEV;
+				OTHER_SWIFT_FLAGS = "-D Dev";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiceApp.YourDigitalLiftDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -406,8 +380,38 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YourDigitalLift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEV";
-				PRODUCT_BUNDLE_IDENTIFIER = com.DiceApp.YourDigitalLiftDEV;
+				OTHER_SWIFT_FLAGS = "-D Dev";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiceApp.YourDigitalLiftDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AE94855257E44110065CCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "YourDigitalLift copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiceApp.YourDigitalLiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AE94856257E44110065CCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "YourDigitalLift copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiceApp.YourDigitalLiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,15 +421,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A26111B257D7D3400F185D1 /* Build configuration list for PBXNativeTarget "YourDigitalLiftDEMO" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A26111C257D7D3400F185D1 /* Debug */,
-				0A26111D257D7D3400F185D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0A9AE82E257CB0A600C79C0E /* Build configuration list for PBXProject "YourDigitalLift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -440,6 +435,15 @@
 			buildConfigurations = (
 				0A9AE846257CB0A600C79C0E /* Debug */,
 				0A9AE847257CB0A600C79C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE94854257E44110065CCD9 /* Build configuration list for PBXNativeTarget "YourDigitalLiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE94855257E44110065CCD9 /* Debug */,
+				0AE94856257E44110065CCD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A26110E257D7D3400F185D1"
-               BuildableName = "YourDigitalLiftDEMO.app"
-               BlueprintName = "YourDigitalLiftDEMO"
+               BlueprintIdentifier = "0AE94833257E41520065CCD9"
+               BuildableName = "YourDigitalLiftDemo.app"
+               BlueprintName = "YourDigitalLiftDemo"
                ReferencedContainer = "container:YourDigitalLift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A26110E257D7D3400F185D1"
-            BuildableName = "YourDigitalLiftDEMO.app"
-            BlueprintName = "YourDigitalLiftDEMO"
+            BlueprintIdentifier = "0AE94833257E41520065CCD9"
+            BuildableName = "YourDigitalLiftDemo.app"
+            BlueprintName = "YourDigitalLiftDemo"
             ReferencedContainer = "container:YourDigitalLift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -57,9 +57,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A26110E257D7D3400F185D1"
-            BuildableName = "YourDigitalLiftDEMO.app"
-            BlueprintName = "YourDigitalLiftDEMO"
+            BlueprintIdentifier = "0AE94833257E41520065CCD9"
+            BuildableName = "YourDigitalLiftDemo.app"
+            BlueprintName = "YourDigitalLiftDemo"
             ReferencedContainer = "container:YourDigitalLift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -76,9 +76,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A26110E257D7D3400F185D1"
-            BuildableName = "YourDigitalLiftDEMO.app"
-            BlueprintName = "YourDigitalLiftDEMO"
+            BlueprintIdentifier = "0AE94833257E41520065CCD9"
+            BuildableName = "YourDigitalLiftDemo.app"
+            BlueprintName = "YourDigitalLiftDemo"
             ReferencedContainer = "container:YourDigitalLift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

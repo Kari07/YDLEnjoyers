@@ -25,11 +25,11 @@ class UserListController: UIViewController {
         
         //MARK :- Target
         
-        #if DEV
+        #if Dev
             self.navigationItem.title = "YourDigitalLift"
             navigationController?.navigationBar.barTintColor = UIColor.cyan
         #else
-            self.navigationItem.title = "UserList_Dec"
+            self.navigationItem.title = "YourDigitalLiftDemo"
             navigationController?.navigationBar.barTintColor = UIColor.orange
         #endif
         
@@ -87,7 +87,12 @@ extension UserListController : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let userVC = storyboard?.instantiateViewController(withIdentifier: "UserDetailsController") as! UserDetailsController
+        if searching{
+            userVC.user = filterName[indexPath.row]
+        }
+        else{
         userVC.user = userDetails[indexPath.row]
+        }
         self.navigationController?.pushViewController(userVC, animated: true)
     }
 }
