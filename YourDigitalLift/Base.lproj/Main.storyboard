@@ -23,30 +23,13 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" red="0.77260500190000003" green="0.76507633919999996" blue="0.76477819680000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="userCell" rowHeight="100" id="rjf-Su-TJL" customClass="UserListCell" customModule="YourDigitalLift" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="userCell" rowHeight="20" id="rjf-Su-TJL" customClass="UserListCell" customModule="YourDigitalLift" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="20"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rjf-Su-TJL" id="dXr-KD-5Wi">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="19.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWm-DA-DGP">
-                                                    <rect key="frame" x="15" y="0.0" width="360" height="99.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="rWm-DA-DGP" secondAttribute="bottom" id="Qmw-qk-q1X"/>
-                                                <constraint firstItem="rWm-DA-DGP" firstAttribute="top" secondItem="dXr-KD-5Wi" secondAttribute="top" id="hku-gD-AuL"/>
-                                                <constraint firstAttribute="trailing" secondItem="rWm-DA-DGP" secondAttribute="trailing" id="sSb-IA-iB6"/>
-                                                <constraint firstItem="rWm-DA-DGP" firstAttribute="leading" secondItem="dXr-KD-5Wi" secondAttribute="leading" constant="15" id="wjh-9p-QVd"/>
-                                            </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="usersNameLbl" destination="rWm-DA-DGP" id="Q5Y-aJ-asW"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

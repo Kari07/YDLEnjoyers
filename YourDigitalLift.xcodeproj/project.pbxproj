@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0A1D5A8C257CE77500431906 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D5A8B257CE77500431906 /* User.swift */; };
 		0A1DDA7B257D248D00CBF6AC /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */; };
-		0A261110257D7D3400F185D1 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADDBF9257CDFA500387F30 /* UserListCell.swift */; };
 		0A261111257D7D3400F185D1 /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */; };
 		0A261112257D7D3400F185D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D5A8B257CE77500431906 /* User.swift */; };
 		0A261113257D7D3400F185D1 /* HttpsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADDBFB257CE01800387F30 /* HttpsRequest.swift */; };
@@ -23,8 +22,9 @@
 		0A9AE83C257CB0A600C79C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83A257CB0A600C79C0E /* Main.storyboard */; };
 		0A9AE83E257CB0A600C79C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83D257CB0A600C79C0E /* Assets.xcassets */; };
 		0A9AE841257CB0A600C79C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AE83F257CB0A600C79C0E /* LaunchScreen.storyboard */; };
-		0AADDBFA257CDFA500387F30 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADDBF9257CDFA500387F30 /* UserListCell.swift */; };
 		0AADDBFC257CE01800387F30 /* HttpsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADDBFB257CE01800387F30 /* HttpsRequest.swift */; };
+		0ABE6B4A257E2D17007B6D53 /* UserNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE6B48257E2D17007B6D53 /* UserNamesCell.swift */; };
+		0ABE6B4B257E2D17007B6D53 /* UserNamesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABE6B49257E2D17007B6D53 /* UserNamesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +39,9 @@
 		0A9AE83D257CB0A600C79C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9AE840257CB0A600C79C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A9AE842257CB0A600C79C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AADDBF9257CDFA500387F30 /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
 		0AADDBFB257CE01800387F30 /* HttpsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpsRequest.swift; sourceTree = "<group>"; };
+		0ABE6B48257E2D17007B6D53 /* UserNamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNamesCell.swift; sourceTree = "<group>"; };
+		0ABE6B49257E2D17007B6D53 /* UserNamesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserNamesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				0A9AE836257CB0A600C79C0E /* AppDelegate.swift */,
+				0ABE6B48257E2D17007B6D53 /* UserNamesCell.swift */,
+				0ABE6B49257E2D17007B6D53 /* UserNamesCell.xib */,
 				0A9AE838257CB0A600C79C0E /* UserListController.swift */,
 				0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */,
-				0AADDBF9257CDFA500387F30 /* UserListCell.swift */,
 				0AADDBFB257CE01800387F30 /* HttpsRequest.swift */,
 				0A1D5A8B257CE77500431906 /* User.swift */,
 				0A9AE83A257CB0A600C79C0E /* Main.storyboard */,
@@ -187,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9AE841257CB0A600C79C0E /* LaunchScreen.storyboard in Resources */,
+				0ABE6B4B257E2D17007B6D53 /* UserNamesCell.xib in Resources */,
 				0A9AE83E257CB0A600C79C0E /* Assets.xcassets in Resources */,
 				0A9AE83C257CB0A600C79C0E /* Main.storyboard in Resources */,
 			);
@@ -199,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A261110257D7D3400F185D1 /* UserListCell.swift in Sources */,
 				0A261111257D7D3400F185D1 /* UserDetailsController.swift in Sources */,
 				0A261112257D7D3400F185D1 /* User.swift in Sources */,
 				0A261113257D7D3400F185D1 /* HttpsRequest.swift in Sources */,
@@ -212,9 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AADDBFA257CDFA500387F30 /* UserListCell.swift in Sources */,
 				0A1DDA7B257D248D00CBF6AC /* UserDetailsController.swift in Sources */,
 				0A1D5A8C257CE77500431906 /* User.swift in Sources */,
+				0ABE6B4A257E2D17007B6D53 /* UserNamesCell.swift in Sources */,
 				0AADDBFC257CE01800387F30 /* HttpsRequest.swift in Sources */,
 				0A9AE839257CB0A600C79C0E /* UserListController.swift in Sources */,
 				0A9AE837257CB0A600C79C0E /* AppDelegate.swift in Sources */,

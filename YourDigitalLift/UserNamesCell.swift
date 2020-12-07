@@ -1,16 +1,16 @@
 //
-//  UserListCell.swift
+//  UserNamesCell.swift
 //  YourDigitalLift
 //
-//  Created by Mac2 on 06/12/20.
+//  Created by Mac2 on 07/12/20.
 //  Copyright © 2020 Mac2. All rights reserved.
 //
 
 import UIKit
 
-class UserListCell: UITableViewCell {
-   
-    @IBOutlet weak var usersNameLbl: UILabel!
+class UserNamesCell: UITableViewCell {
+
+    @IBOutlet weak var names: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,5 +20,5 @@ class UserListCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
     }
-
+    
 }

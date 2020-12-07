@@ -33,6 +33,9 @@ class UserListController: UIViewController {
             navigationController?.navigationBar.barTintColor = UIColor.orange
         #endif
         
+        // MARK:- xib registerd here
+        self.userListTable.register(UINib(nibName: "UserNamesCell", bundle: nil), forCellReuseIdentifier: "userCell")
+        
         userListTable.delegate = self
         userListTable.dataSource = self
         
@@ -40,11 +43,17 @@ class UserListController: UIViewController {
         
         let httpRequest = HttpsRequest()
         
-        httpRequest.getUsers { (userList) in
+        httpRequest.getUsers(onSuccess: { (userList) in
             self.userDetails = userList
-            DispatchQueue.main.async {
-                self.userListTable.reloadData()
+                        DispatchQueue.main.async {
+                            self.userListTable.reloadData()
+                        }
+        }) { (errReceived) in
+            let alertController = UIAlertController(title: "", message: "Fail to Load Users Name ", preferredStyle: .alert)
+            let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
             }
+            alertController.addAction(OKAction)
+            self.present(alertController, animated: true, completion:nil)
         }
     }
 }
@@ -61,18 +70,18 @@ extension UserListController : UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "userCell", for: indexPath) as! UserListCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "userCell", for: indexPath) as! UserNamesCell
         if searching{
-            cell.usersNameLbl.text = filterName[indexPath.row].name
+            cell.names.text = filterName[indexPath.row].name
         }
         else{
-            cell.usersNameLbl.text = userDetails[indexPath.row].name
+            cell.names.text = userDetails[indexPath.row].name
         }
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 60
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
