@@ -13,16 +13,15 @@ import UIKit
 class UserListController: UIViewController {
     
     @IBOutlet weak var userListTable: UITableView!
-  
+    
     @IBOutlet weak var searchBar: UISearchBar!
     
     var userDetails = [User]()
-   // var filterName : [User]!
+    var filterName : [User]!
+    var searching = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       // filterName = userDetails
         
         //MARK :- Target
         
@@ -33,7 +32,7 @@ class UserListController: UIViewController {
             self.navigationItem.title = "UserList_Dec"
             navigationController?.navigationBar.barTintColor = UIColor.orange
         #endif
-   
+        
         userListTable.delegate = self
         userListTable.dataSource = self
         
@@ -42,7 +41,6 @@ class UserListController: UIViewController {
         let httpRequest = HttpsRequest()
         
         httpRequest.getUsers { (userList) in
-           
             self.userDetails = userList
             DispatchQueue.main.async {
                 self.userListTable.reloadData()
@@ -54,15 +52,22 @@ class UserListController: UIViewController {
 
 extension UserListController : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return userDetails.count
-      //  return filterName.count
+        if searching{
+            return filterName.count
+        }
+        else{
+            return userDetails.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "userCell", for: indexPath) as! UserListCell
-       cell.usersNameLbl.text = userDetails[indexPath.row].name
-      //  cell.usersNameLbl.text = filterName[indexPath.row].name
-
+        if searching{
+            cell.usersNameLbl.text = filterName[indexPath.row].name
+        }
+        else{
+            cell.usersNameLbl.text = userDetails[indexPath.row].name
+        }
         return cell
     }
     
@@ -79,12 +84,11 @@ extension UserListController : UITableViewDelegate,UITableViewDataSource{
 }
 extension UserListController : UISearchBarDelegate{
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-       // print(searchText)
-      //  filterName = searchText.isEmpty ? userDetails : userDetails.filter({(datastring: User) -> Bool in
-            
-          //  return datastring.range(of: searchText, option: .caseInsensitive) != nil
-       // })
+        
+        filterName = userDetails.filter({$0.name.prefix(searchText.count) == searchText})
+        searching = true
         userListTable.reloadData()
+   
     }
 }
 
