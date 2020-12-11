@@ -64,6 +64,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1CC8FF2582999400B2436D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A9AE836257CB0A600C79C0E /* AppDelegate.swift */,
+				0ABE6B48257E2D17007B6D53 /* UserNamesCell.swift */,
+				0A9AE838257CB0A600C79C0E /* UserListController.swift */,
+				0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A1CC900258299AC00B2436D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A9AE83A257CB0A600C79C0E /* Main.storyboard */,
+				0ABE6B49257E2D17007B6D53 /* UserNamesCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A1CC901258299B500B2436D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0AADDBFB257CE01800387F30 /* HttpsRequest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A1CC902258299C500B2436D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A1D5A8B257CE77500431906 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0A9AE82A257CB0A600C79C0E = {
 			isa = PBXGroup;
 			children = (
@@ -85,14 +121,10 @@
 		0A9AE835257CB0A600C79C0E /* YourDigitalLift */ = {
 			isa = PBXGroup;
 			children = (
-				0A9AE836257CB0A600C79C0E /* AppDelegate.swift */,
-				0ABE6B48257E2D17007B6D53 /* UserNamesCell.swift */,
-				0ABE6B49257E2D17007B6D53 /* UserNamesCell.xib */,
-				0A9AE838257CB0A600C79C0E /* UserListController.swift */,
-				0A1DDA7A257D248D00CBF6AC /* UserDetailsController.swift */,
-				0AADDBFB257CE01800387F30 /* HttpsRequest.swift */,
-				0A1D5A8B257CE77500431906 /* User.swift */,
-				0A9AE83A257CB0A600C79C0E /* Main.storyboard */,
+				0A1CC902258299C500B2436D /* Model */,
+				0A1CC901258299B500B2436D /* ViewModel */,
+				0A1CC900258299AC00B2436D /* View */,
+				0A1CC8FF2582999400B2436D /* Controller */,
 				0A9AE83D257CB0A600C79C0E /* Assets.xcassets */,
 				0A9AE83F257CB0A600C79C0E /* LaunchScreen.storyboard */,
 				0A9AE842257CB0A600C79C0E /* Info.plist */,
